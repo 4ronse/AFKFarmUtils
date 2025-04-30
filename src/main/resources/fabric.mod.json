@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "afkfarmutils",
+  "version": "${version}",
+  "name": "AFKFarmUtils",
+  "description": "עד מתי",
+  "authors": [
+    "4ronse <https://github.com/4ronse>"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/afkfarmutils/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.ronse.afkfarmutils.AFKFarmUtils"
+    ]
+  },
+  "mixins": [
+    "afkfarmutils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
