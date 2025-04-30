@@ -19,11 +19,6 @@ import org.lwjgl.glfw.GLFW;
 import org.slf4j.Logger;
 import org.slf4j.event.Level;
 
-// TODO: UPLOAD TO GITHUB!!!
-
-// TODO: Add Icon
-
-// TODO: Add a config GUI
 // TODO: Fix panic feature
 // TODO: Panic feature - Implement System Notifications. Perchance even a mobile notification? Discord webhook? Pigeon messenger?
 // TODO: Disable farming mode when not AFK

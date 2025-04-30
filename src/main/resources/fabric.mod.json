@@ -3,7 +3,7 @@
   "id": "afkfarmutils",
   "version": "${version}",
   "name": "AFKFarmUtils",
-  "description": "עד מתי",
+  "description": "A mod that adds some useful features for AFK farms.",
   "authors": [
     "4ronse <https://github.com/4ronse>"
   ],
@@ -14,6 +14,9 @@
   "entrypoints": {
     "client": [
       "dev.ronse.afkfarmutils.AFKFarmUtils"
+    ],
+    "modmenu": [
+      "dev.ronse.afkfarmutils.AFKModMenuImpl"
     ]
   },
   "mixins": [
@@ -23,5 +26,13 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "github": "https://gitub.com/4ronse/AFKFarmUtils"
+      },
+      "update_checker": false
+    }
   }
 }
